@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+#wrapper{
+    width: 100%;
+    height: 100vh;
+}
+#header{
+    width: 100%;
+    padding: 0px 30px;
+    margin-top: 33px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#menu {
+    list-style: none;
+    display: flex;
+    
+}
+.logo img{
+    height: 100px;
+    width: 100px;
+    display: flex;
+}
+#menu .item a{
+    margin: 0px  25px;
+}
+#menu .item a{
+    color: black;
+    text-decoration: none;
+    
+}
+#action {
+    display: flex;
+    
+}
+#action .item{
+    margin-left: 25px;
+}
+.item img{
+    height: 30px;
+    width: 30px;
+    
+}
+#banner{
+    width: 100%;
+    background-image: url('/Trangchu/img/bg1.jpg') ;
+    height: 500px;
+    margin-top: 40px;
+    display: flex;
+    padding: 0px 13px;
+    position: relative;
+    /* background-repeat: no-repeat; */
+}
+#banner .box-left,#banner .box-right{
+    width: 50%;
+}
+#banner .box-left h2{
+    font-size: 49px;
+    margin-top: 75px;
+    color: white;
+}
+#banner .box-left p{
+  color:beige;
+}
+#banner .box-left button{
+    width: 150px;
+    height: 40px;
+    margin-top: 40px;
+    border: none;
+    background:black ;
+    border-radius: 10px;
+    color: white;
+    transition: 1s;
+  }
+#banner .box-left button:hover{
+    background: orange;
+}
+#wp-product{
+    padding-top: 100px;
+    padding-bottom: 80px;
+    padding-left: 130px;
+    padding-right: 130px;
+
+}
+#wp-product h2{
+    text-align: center;
+    margin-bottom:  50px;
+    font-size: 35px;
+    color: grey;
+    
+}
+#list-product {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    text-align: center;
+}
+#list-product .item {
+    background-color:rgb(63, 53, 53);
+    width: 280px;
+    height: 300px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    color: white;
+    
+}
+#list-product .item .price {
+    color: red;
+    margin-top: 20px;  
+}
+#footer{
+    
+    background: black;
+    width: 100%;
+    height: 150px;
+    color: white;
+    text-align: center;   
+    display: flex; 
+    justify-content: center;
+}
+#footer .foothead{
+    margin-top: 20px;
+    margin-left: 100px;
+    text-align: center;
+}
